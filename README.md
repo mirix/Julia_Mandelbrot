@@ -13,6 +13,7 @@ LINUX INSTALL
 
 RUNNING
 
+```
 Usage: ./fractol <type> [options]
 
 <type>:
@@ -41,7 +42,7 @@ Examples:
   ./fractol m ship
   ./fractol j d
   ./fractol j c 0.42 0.42
-
+```
 
 ONCE INSIDE
 
