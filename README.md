@@ -13,6 +13,8 @@ LINUX INSTALL
 
 RUNNING
 
+Run ./fractol without options to display the following help:
+
 ```
 Usage: ./fractol <type> [options]
 
