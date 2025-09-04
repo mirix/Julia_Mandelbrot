@@ -53,5 +53,5 @@ ONCE INSIDE
   3. R/r to restore the initial position and size.
   4. C/c to change the colour palette (eight available).
   5. T/t to toggle on/off the colour shift animation.
-  6. Click anywhere on the Mandelbrot set to open the corresponding Julia set on a new window (the cutests Julias are around the edges).
+  6. Click anywhere on the Mandelbrot to open the corresponding Julia set (the cutests Julias are around the edges).
   7. ESC to exit.
