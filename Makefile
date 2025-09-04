@@ -20,7 +20,7 @@ MLXDIR  := minilibx-linux
 OBJDIR  := obj
 
 # ===== Tooling =====
-CC      := cc
+CC      := clang
 RM      := rm -f
 CFLAGS  := -Wall -Wextra -Werror -O2 -MMD -MP
 CPPFLAGS:= -I$(INCDIR) -I$(MLXDIR) -Ift_printf -Ilibft
