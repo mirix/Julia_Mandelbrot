@@ -7,7 +7,7 @@ LINUX INSTALL
 1. Clone this repo and cd into it.
 2. Clone the following repo :
    https://github.com/42paris/minilibx-linux
-3. Check the requirement of minilibx and, if required, install them.
+3. Check the requirements of minilibx and, if required, install them.
 4. make
 
 
