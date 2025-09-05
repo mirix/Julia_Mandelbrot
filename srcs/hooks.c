@@ -33,14 +33,21 @@ int	timer_hook(t_data *d)
 
 int	mouse_motion_hook(int x, int y, t_data *d)
 {
-	t_complex	pos;
+	static double	last_time;
+	double			current_time;
+	t_complex		pos;
 
+	last_time = 0;
+	current_time = clock() / (double)CLOCKS_PER_SEC;
+	if (current_time - last_time < 0.1)
+		return (0);
+	last_time = current_time;
 	pos = map(x, y, d);
 	if (d->type == JULIA)
-		ft_printf("Julia c = %.4f + %.4fi | z0 = %.4f + %.4fi \r",
+		ft_printf("Julia c = %f + %fi | z0 = %f + %fi                       \r",
 			d->julia_c.x, d->julia_c.y, pos.x, pos.y);
 	else
-		ft_printf("Mandelbrot c = %.4f + %.4fi                     \r",
+		ft_printf("Mandelbrot c = %f + %fi                                  \r",
 			pos.x, pos.y);
 	return (0);
 }
