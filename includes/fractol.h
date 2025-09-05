@@ -85,6 +85,7 @@ typedef struct s_data
 	t_fractal_eq		equation;
 	struct s_data		*julia_d;
 	struct s_data		*parent_d;
+	double				last_print_time;
 }	t_data;
 
 typedef struct s_strip
