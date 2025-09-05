@@ -7,8 +7,8 @@ LINUX INSTALL
 1. Clone this repo and cd into it.
 2. Clone the following repo :
    https://github.com/42paris/minilibx-linux
-3. Check the requirements of minilibx and, if required, install them.
-   NOTE: minilibx does not build with a recent gcc, hack all Makefile.mk to set the compiler to clang.
+3. Check the dependencies of minilibx and, if required, install them.
+   NOTE: minilibx does not build with a recent gcc, hack all Makefile.mk files to set the compiler to clang.
 5. make
 
 
